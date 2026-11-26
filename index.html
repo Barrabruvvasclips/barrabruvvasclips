@@ -1,0 +1,216 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BarraBruvvasClips | Short-Form Video Editing</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: Arial, sans-serif;
+      background: #080d19;
+      color: #f4f7ff;
+      line-height: 1.6;
+    }
+    header {
+      padding: 24px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #1b2940;
+    }
+    .logo { font-size: 21px; font-weight: 800; }
+    .logo span { color: #3995ff; }
+    nav a {
+      color: #c8d5e8;
+      text-decoration: none;
+      margin-left: 22px;
+      font-size: 14px;
+    }
+    .hero {
+      padding: 100px 8% 85px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .tag {
+      color: #54a5ff;
+      font-weight: bold;
+      letter-spacing: 2px;
+      font-size: 12px;
+      text-transform: uppercase;
+    }
+    h1 {
+      font-size: clamp(42px, 7vw, 72px);
+      line-height: 1.08;
+      margin: 20px 0;
+      max-width: 800px;
+    }
+    h1 span { color: #3995ff; }
+    .hero p {
+      color: #aab8ce;
+      max-width: 600px;
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+    .button {
+      display: inline-block;
+      background: #2788f5;
+      color: white;
+      padding: 14px 24px;
+      border-radius: 7px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section { padding: 65px 8%; }
+    .section-inner { max-width: 1100px; margin: auto; }
+    h2 { font-size: 32px; margin-bottom: 12px; }
+    .intro { color: #aab8ce; margin-bottom: 30px; }
+    .stats, .services, .work {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 18px;
+    }
+    .card {
+      background: #101a2b;
+      border: 1px solid #20314c;
+      border-radius: 12px;
+      padding: 25px;
+    }
+    .stat { font-size: 32px; color: #54a5ff; font-weight: 800; }
+    .muted { color: #aab8ce; }
+    .work a {
+      display: inline-block;
+      color: #62adff;
+      margin-top: 16px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .contact {
+      background: #0e192a;
+      text-align: center;
+    }
+    .contact p { color: #aab8ce; margin: 12px 0 25px; }
+    footer {
+      text-align: center;
+      padding: 25px;
+      color: #7889a3;
+      font-size: 13px;
+      border-top: 1px solid #1b2940;
+    }
+    @media (max-width: 600px) {
+      header { padding: 20px 6%; }
+      nav a { margin-left: 10px; font-size: 12px; }
+      .hero { padding: 75px 6%; }
+      section { padding: 50px 6%; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">BarraBruvvas<span>Clips</span></div>
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#work">Portfolio</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <div class="hero">
+    <div class="tag">Short-form video editing</div>
+    <h1>Turn long videos into <span>attention-grabbing clips.</span></h1>
+    <p>
+      I help podcasters and content creators turn their long-form content
+      into engaging short videos for TikTok, Instagram Reels and YouTube Shorts.
+    </p>
+    <a class="button" href="#contact">Let's work together</a>
+  </div>
+
+  <section>
+    <div class="section-inner">
+      <h2>My experience</h2>
+      <p class="intro">Results from my own TikTok clipping account.</p>
+      <div class="stats">
+        <div class="card">
+          <div class="stat">3,028</div>
+          <div class="muted">Followers</div>
+        </div>
+        <div class="card">
+          <div class="stat">431.8K</div>
+          <div class="muted">Total likes</div>
+        </div>
+        <div class="card">
+          <div class="stat">261.2K</div>
+          <div class="muted">Highest video views</div>
+        </div>
+      </div>
+      <p class="muted" style="font-size:12px;margin-top:14px;">
+        Figures are self-reported account results and are not a guarantee of client performance.
+      </p>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="section-inner">
+      <h2>What I can do</h2>
+      <p class="intro">Short-form content designed to make the most of your videos.</p>
+      <div class="services">
+        <div class="card">
+          <h3>Podcast clipping</h3>
+          <p class="muted">Find engaging moments in longer podcast episodes and turn them into short clips.</p>
+        </div>
+        <div class="card">
+          <h3>Captions & subtitles</h3>
+          <p class="muted">Add clear, easy-to-follow captions to help viewers follow the conversation.</p>
+        </div>
+        <div class="card">
+          <h3>Social media formatting</h3>
+          <p class="muted">Prepare vertical videos for TikTok, Instagram Reels and YouTube Shorts.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="work">
+    <div class="section-inner">
+      <h2>Portfolio</h2>
+      <p class="intro">A few examples of my editing and clipping work.</p>
+      <div class="work">
+        <div class="card">
+          <h3>Example 01</h3>
+          <p class="muted">Podcast clip</p>
+          <a href="https://www.tiktok.com/@barrabruvvasclips1/video/7701034332932132118" target="_blank" rel="noopener">Watch on TikTok ↗</a>
+        </div>
+        <div class="card">
+          <h3>Example 02</h3>
+          <p class="muted">Podcast clip</p>
+          <a href="https://www.tiktok.com/@barrabruvvasclips1/video/7695072509296839938" target="_blank" rel="noopener">Watch on TikTok ↗</a>
+        </div>
+        <div class="card">
+          <h3>Example 03</h3>
+          <p class="muted">Podcast clip</p>
+          <a href="https://www.tiktok.com/@barrabruvvasclips1/video/7693543212975164694" target="_blank" rel="noopener">Watch on TikTok ↗</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="section-inner">
+      <h2>Have content that needs clipping?</h2>
+      <p>Get in touch and let's discuss your next project.</p>
+      <a class="button" href="https://www.tiktok.com/@barrabruvvasclips1" target="_blank" rel="noopener">
+        Contact me on TikTok
+      </a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  © 2026 BarraBruvvasClips. Portfolio and editing services.
+</footer>
+
+</body>
+</html>
